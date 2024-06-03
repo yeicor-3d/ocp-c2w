@@ -47,6 +47,6 @@ jobs:
       - uses: "actions/configure-pages@v5"
       - uses: "actions/upload-pages-artifact@v3"
         with:
-          path: 'export'
+          path: 'web'
       - id: "deployment"
         uses: "actions/deploy-pages@v4"
